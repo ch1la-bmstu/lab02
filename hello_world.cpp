@@ -1,15 +1,10 @@
 #include <iostream>
-using namespace std;
+// Программа для демонстрации персонализированного "Hello World"
+// Исправлено: удалено 'using namespace std' для большей ясности кода
 
 int main(){
-string name;
-cin>>name;
-cout<<"Hello world from "<<name<<endl;
-return 0;
-}#include <iostream>
-using namespace std;
-
-int main(){
-cout<<"Hello world"<<endl;
+std::string name;
+std::cin >> name;
+std::cout << "Hello world from " << name << std::endl;
 return 0;
 }
